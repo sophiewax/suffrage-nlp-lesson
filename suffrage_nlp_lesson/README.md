@@ -1,19 +1,20 @@
-# Analyzing Women's Suffrage and Anti-Suffrage Rhetoric
+# Historian-lesson
+# Analyzing Women's Suffrage vs. Anti-Suffrage Texts with TF-IDF
 
-This repository contains materials for a Programming Historian–style tutorial analyzing pro- and anti-suffrage writings from the late 19th and early 20th centuries using word frequency analysis.
+## Lesson Summary
+In this lesson, you will learn how to use basic Natural Language Processing (NLP) tools to compare women's suffrage and anti-suffrage writings using TF-IDF (Term Frequency-Inverse Document Frequency). We will explore how certain words and concepts dominated each discourse by calculating the relative importance of words in a set of historical texts.
 
-## Contents
+This short Programming Historian–style tutorial is designed to be beginner-friendly and uses Python with `scikit-learn` and `pandas`. All you need is a basic understanding of Python and access to a Jupyter Notebook.
 
-- `notebooks/`: Jupyter Notebook with the full tutorial
-- `data/`: CSV file containing the suffrage texts
-- `docs/`: Markdown lesson formatted for Programming Historian style
+## What You'll Learn
+- How to preprocess historical text data
+- How to use TF-IDF to identify key vocabulary in different ideological texts
+- How to visualize and interpret results
 
 ## Requirements
-
 - Python 3
 - Jupyter Notebook
-- `nltk`, `pandas`, `matplotlib`
+- pandas
+- scikit-learn
+- matplotlib
 
-## Author
-
-Created by [Your Name] for [Course Name, Semester].
