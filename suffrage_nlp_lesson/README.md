@@ -6,6 +6,8 @@ In this lesson, you will learn how to use basic Natural Language Processing (NLP
 
 This short Programming Historian–style tutorial is designed to be beginner-friendly and uses Python with `scikit-learn` and `pandas`. All you need is a basic understanding of Python and access to a Jupyter Notebook.
 
+Sample texts from women's rights activists have been provided in a CSV data file as an example for text analysis. Your task is to find additional writings from both the women's suffrage and anti-suffrage movements, and use the provided code to analyze them.
+
 ## What You'll Learn
 - How to preprocess historical text data
 - How to use TF-IDF to identify key vocabulary in different ideological texts
